@@ -1,0 +1,15 @@
+{
+  "name": "purs-project-euler",
+  "version": "1.0.0",
+  "description": "Project Euler solutions in PureScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "purescript": "^0.15.15",
+    "spago": "^0.93.43"
+  }
+}
