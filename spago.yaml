@@ -4,9 +4,16 @@ package:
     - console
     - effect
     - prelude
+    - spec
+    - spec-discovery
   test:
     main: Test.Main
     dependencies: []
+  build:
+    censorProjectWarnings:
+      - WildcardInferredType
+      - ImplicitQualifiedImport
+      - ShadowedName
 workspace:
   packageSet:
     registry: 63.3.0

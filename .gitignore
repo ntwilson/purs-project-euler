@@ -1,6 +1,8 @@
 # Dependencies
 .psci_modules
 .spago
+.spec-results
+.psc-ide-port
 bower_components
 node_modules
 
